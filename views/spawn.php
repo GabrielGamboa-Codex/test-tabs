@@ -1,16 +1,15 @@
 <body>
     <div class="container mt-3 p-3">
-        <p> Batman, también conocido como Bruce Wayne, hizo su primera aparición en Detective Comics #27,
-            publicado por DC Comics en mayo de 1939. Creado por Bob Kane y Bill Finger, este personaje 
-            rápidamente se convirtió en uno de los favoritos de los lectores y un símbolo icónico en el 
-            mundo de los cómics. La historia de Batman es la de un hombre que, tras presenciar el asesinato
-            de sus padres cuando era niño, jura vengar su muerte combatiendo el crimen en la Ciudad Gótica.
-            A diferencia de muchos otros superhéroes, Batman no posee superpoderes, pero cuenta con una inmensa
-            fortuna y un ingenio brillante. Entrenado en artes marciales y estrategia, Bruce Wayne adopta la
-            identidad de Batman para luchar contra la corrupción y la injusticia en su ciudad natal. Su lucha
-            contra el crimen lo ha llevado a enfrentarse a algunos de los villanos más notorios, como el Joker,
-            el Pingüino y el Espantapájaros.
-        </p>
-        <img src="views/img/batman_1.jpeg" class="img-fluid mx-auto d-block">
+            <p> Spawn es un Engendro Infernal enviado a la Tierra para entregar almas malvadas al Infierno. 
+                Sin embargo, Spawn se convirtió en el pseudo-protector de la Ciudad de New York, luchando 
+                contra fuerzas del Cielo y el Infierno por igual. El legado de los Engendros Infernales se 
+                extiende a lo largo de la historia aprovechando el enigmático Necroplasma y criaturas siniestras 
+                (como gusanos, murciélagos y lobos), para obtener sus poderes. Medieval Spawn fue uno de los Engendros
+                Infernales anteriores y fue asesinado por Angela, una guerrera seráfica. Albert Simmons fue el Engendro
+                Infernal del siglo XX surgido durante la década 1990. Se sacrificó para liberarse de la tortura eterna,
+                pero reanimó a James Downing como resultado de su acción. Jim cargó el manto de Engendro Infernal durante
+                varios años hasta el regreso de Al en 2015.
+            </p>
+        <img src="views/img/spawn_1.jpg" class="img-fluid mx-auto d-block"> 
     </div>
 </body>
