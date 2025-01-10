@@ -1,45 +1,28 @@
 $(document).ready(function() {
-    //Carga por defecto del home al iniciar el documento
-    function loadHome()
-    {
+  
+    function cargaVista($contenido){
         $.ajax({
-            url: "views/home.php",
+            url: "views/"+$contenido+".php",
             success: function (data){ 
-            $("#home").html(data);
+            $("#"+$contenido).html(data);
             },
         });
     }
-    
     //vista 1
     $("#home-tab").click(function () {
-        $.ajax({
-          url: "views/home.php",
-          success: function (data){ 
-          $("#home").html(data);
-          },
-      });
+        cargaVista("home");
     });
 
     //vista 2
     $("#batman-tab").click(function () {
-        $.ajax({
-            url: "views/batman.php",
-            success: function (data){ 
-            $("#batman").html(data);
-            },
-        });
+        cargaVista("batman");
     });
 
     //vista 3
     $("#spawn-tab").click(function () {
-        $.ajax({
-            url: "views/spawn.php",
-            success: function (data){ 
-            $("#spawn").html(data);
-            },
-        });
+        cargaVista("spawn");
     });
 
-    loadHome();
+    cargaVista('home');
 });
 
